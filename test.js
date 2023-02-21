@@ -31,7 +31,7 @@ describe("Easy", function() {
         const result = "someone reads this";
         expect(decode(expr)).to.equal(result);
     });
-    
+            
     it("Sentence test 6", function() {
         const expr = "001010101000000000100011101111**********001110111100001111110000101011**********0010101010000000001000101110100010111110**********00000011110000000010";
         const result = "hey you help me";
